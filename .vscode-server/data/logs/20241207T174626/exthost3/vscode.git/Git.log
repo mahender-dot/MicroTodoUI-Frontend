@@ -1,0 +1,75 @@
+2024-12-07 17:51:11.356 [info] [main] Log level: Info
+2024-12-07 17:51:11.356 [info] [main] Validating found git in: "git"
+2024-12-07 17:51:11.356 [info] [main] Using git "2.43.0" from "git"
+2024-12-07 17:51:11.356 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-07 17:51:11.356 [info] > git rev-parse --show-toplevel [36ms]
+2024-12-07 17:51:11.356 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-07 17:51:11.356 [info] > git rev-parse --show-toplevel [1ms]
+2024-12-07 17:51:11.356 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-12-07 17:51:11.356 [info] [Model][openRepository] Opened repository: /home/msyadav/frontend/MicroTodoUI-Frontend
+2024-12-07 17:51:11.356 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-07 17:51:11.356 [info] > git config --get commit.template [8ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:51:11.356 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:51:11.356 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-07 17:51:11.356 [info] > git status -z -uall [5ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-12-07 17:51:11.356 [info] > git config --get commit.template [5ms]
+2024-12-07 17:51:11.356 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-12-07 17:51:11.356 [info] > git merge-base refs/heads/main refs/remotes/origin/main [27ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2024-12-07 17:51:11.356 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:51:11.356 [info] > git diff --name-status -z --diff-filter=ADMR a8b1ae16967a9277e4408977721d86cf79608dc0...refs/remotes/origin/main [4ms]
+2024-12-07 17:51:11.356 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-12-07 17:51:11.356 [info] > git status -z -uall [3ms]
+2024-12-07 17:51:11.356 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-07 17:51:11.776 [info] > git check-ignore -v -z --stdin [1ms]
+2024-12-07 17:51:13.731 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-07 17:54:07.744 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-07 17:54:14.318 [info] > git show --textconv :Manifest-frontend/deployment.yml [28ms]
+2024-12-07 17:54:14.318 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/deployment.yml [26ms]
+2024-12-07 17:54:25.995 [info] > git check-ignore -v -z --stdin [2ms]
+2024-12-07 17:54:31.972 [info] > git show --textconv :Manifest-frontend/service.yml [7ms]
+2024-12-07 17:54:31.972 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/service.yml [1ms]
+2024-12-07 17:54:32.530 [info] > git show --textconv :Manifest-frontend/ingress.yml [4ms]
+2024-12-07 17:54:32.532 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/ingress.yml [2ms]
+2024-12-07 17:54:41.044 [info] > git config --get commit.template [5ms]
+2024-12-07 17:54:41.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:54:41.049 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:54:41.050 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-07 17:54:41.057 [info] > git status -z -uall [4ms]
+2024-12-07 17:54:41.059 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-07 17:55:00.911 [info] > git config --get commit.template [5ms]
+2024-12-07 17:55:00.911 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:55:00.915 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:55:00.917 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-12-07 17:55:00.924 [info] > git status -z -uall [4ms]
+2024-12-07 17:55:00.925 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-07 17:57:03.894 [info] > git config --get commit.template [4ms]
+2024-12-07 17:57:03.895 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:57:03.898 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:57:03.899 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-07 17:57:03.905 [info] > git status -z -uall [4ms]
+2024-12-07 17:57:03.907 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-12-07 17:57:04.198 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/ingress.yml [1ms]
+2024-12-07 17:57:04.407 [info] > git show --textconv :Manifest-frontend/ingress.yml [2ms]
+2024-12-07 17:57:19.726 [info] > git show --textconv :Manifest-frontend/service.yml [5ms]
+2024-12-07 17:57:19.727 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/service.yml [3ms]
+2024-12-07 17:57:23.993 [info] > git show --textconv :Manifest-frontend/ingress.yml [3ms]
+2024-12-07 17:57:23.994 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/ingress.yml [1ms]
+2024-12-07 17:57:29.540 [info] > git show --textconv :Manifest-frontend/deployment.yml [3ms]
+2024-12-07 17:57:29.541 [info] > git ls-files --stage -- /home/msyadav/frontend/MicroTodoUI-Frontend/Manifest-frontend/deployment.yml [1ms]
+2024-12-07 17:57:29.816 [info] > git config --get commit.template [4ms]
+2024-12-07 17:57:29.817 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:57:29.819 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:57:29.821 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-12-07 17:57:29.827 [info] > git status -z -uall [4ms]
+2024-12-07 17:57:29.829 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-12-07 17:57:34.843 [info] > git config --get commit.template [5ms]
+2024-12-07 17:57:34.844 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-12-07 17:57:34.847 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/msyadav/frontend/MicroTodoUI-Frontend/.git/refs/remotes/origin/main'
+2024-12-07 17:57:34.848 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-12-07 17:57:34.855 [info] > git status -z -uall [4ms]
+2024-12-07 17:57:34.857 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

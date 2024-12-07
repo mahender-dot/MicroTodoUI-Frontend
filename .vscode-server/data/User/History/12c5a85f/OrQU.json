@@ -1,0 +1,14 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "20.199.79.18": "linux",
+        "20.199.74.85": "linux"
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/home/msyadav/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.minikube-path-linux": "/home/msyadav/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.kubectl-path-linux": "/home/msyadav/.local/state/vs-kubernetes/tools/kubectl/kubectl"
+    }
+}

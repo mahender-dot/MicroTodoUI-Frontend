@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:44121
+[2024-12-07 17:51:06] info Disposed of connection to running server.
+looking for token 69ce4c38-21b6-4a7f-90e0-be4f510229da, got Some("69ce4c38-21b6-4a7f-90e0-be4f510229da")
+[2024-12-07 17:51:06] info Checking /home/msyadav/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/log.txt and /home/msyadav/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/pid.txt for a running server...
+[2024-12-07 17:51:06] info Found running server (pid=35607)

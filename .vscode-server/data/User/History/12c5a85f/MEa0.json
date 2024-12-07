@@ -1,0 +1,9 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "20.199.79.18": "linux",
+        "20.199.74.85": "linux"
+    }
+}
